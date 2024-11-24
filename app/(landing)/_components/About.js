@@ -47,7 +47,7 @@ const About = () => {
           </div>
 
           <div className="p-4 h-full sm:p-6">
-            <h3 className="font-mono text-lg sm:text-2xl text-[#33271e] tracking-widest">
+            <h3 className="font-mono text-lg sm:text-2xl text-[#33271e] tracking-widest text-justify sm:text-left">
               <p className="indent-12">
                 <span className="text-3xl font-bold">Dui</span>, affectionately
                 known as the{" "}
@@ -55,14 +55,14 @@ const About = () => {
                 captured the hearts of millions worldwide with his one-of-a-kind
                 appearance and hilariously expressive face.{" "}
               </p>
-              <p className="indent-12">
+              <p className="indent-12 mt-3">
                 His photos first went viral in early 2020, became an instant
                 internet sensation. People adored his quirky expressions, which
                 seemed to perfectly match countless relatable moods, turning{" "}
                 <span className=" italic font-bold">Dui</span> into a staple of
                 internet humor.
               </p>
-              <p className="indent-12">
+              <p className="indent-12 mt-3">
                 His lovable nature brought joy and laughter to a global audience
                 during challenging times, making him a symbol of light-hearted
                 fun.

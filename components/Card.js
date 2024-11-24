@@ -7,7 +7,7 @@ const Card = ({ props: { img, title, desc } }) => {
       <span className="absolute inset-0 bg-duis rounded-xl border-2 border-dashed border-black"></span>
 
       <div className="relative h-full transform rounded-xl border-2 border-black bg-white transition-transform -translate-x-2 -translate-y-2 group-hover:translate-x-0 group-hover:translate-y-0">
-        <div className="transition-opacity relative grid grid-rows-4">
+        <div className="h-full transition-opacity grid grid-rows-4">
           <div className="row-span-3 flex justify-center items-center border-b-2 rounded-b-xl border-black">
             <Image
               src={`/${img}`}
@@ -19,9 +19,11 @@ const Card = ({ props: { img, title, desc } }) => {
             />
           </div>
 
-          <div className="text-center font-stopbuck">
-            <h2 className="mt-4 text-2xl font-medium sm:text-2xl uppercase text-duis">{title}</h2>
-            <p className="mt-2 text-base font-thin sm:text-2xl text-black">{desc}</p>
+          <div className="py-3 text-center font-stopbuck">
+            <h2 className="text-2xl font-medium uppercase text-duis">
+              {title}
+            </h2>
+            <p className="text-lg sm:text-2xl font-thin text-black">{desc}</p>
           </div>
         </div>
       </div>
