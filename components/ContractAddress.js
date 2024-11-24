@@ -42,8 +42,10 @@ const ContractAddress = () => {
         </div>
       </div>
       {copySuccess && (
-        <div className="absolute py-2 px-3 border-2 border-green-600 rounded-md bg-gray-100 -end-24 top-1/2 -translate-y-1/2">
-          <p className="text-md text-green-600 font-stopbuck">Copied!</p>
+        <div className="absolute end-20 top-1/2 -translate-y-1/2">
+          <p className="text-sm sm:text-base md:text-md text-green-600 font-stopbuck">
+            Copied!
+          </p>
         </div>
       )}
     </div>
