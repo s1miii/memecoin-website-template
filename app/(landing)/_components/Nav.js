@@ -33,7 +33,7 @@ const Nav = () => {
         isScrolled ? "h-20" : "h-28"
       }`}
     >
-      <div className="flex items-center border border-black justify-between p-4 lg:px-8 mx-auto max-w-screen-xl">
+      <div className="flex items-center justify-between p-4 lg:px-8 mx-auto max-w-screen-xl">
         {/* Logo */}
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
