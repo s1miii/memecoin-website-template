@@ -72,7 +72,7 @@ export default function Home() {
             />
           </div>
           <div className="mt-5">
-            <p className="font-stopbuck text-2xl">Woof! Woof!</p>
+            <p className="font-stopbuck text-2xl text-black">Woof! Woof!</p>
           </div>
         </div>
         {/* <WallOfLove /> */}

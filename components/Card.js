@@ -21,7 +21,7 @@ const Card = ({ props: { img, title, desc } }) => {
 
           <div className="text-center font-stopbuck">
             <h2 className="mt-4 text-2xl font-medium sm:text-2xl uppercase text-duis">{title}</h2>
-            <p className="mt-2 text-sm font-thin sm:text-2xl">{desc}</p>
+            <p className="mt-2 text-base font-thin sm:text-2xl text-black">{desc}</p>
           </div>
         </div>
       </div>

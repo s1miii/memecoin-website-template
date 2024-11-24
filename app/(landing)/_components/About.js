@@ -31,7 +31,7 @@ const About = () => {
           <h2 className="font-stopbuck text-6xl text-duis text-shadow text-center mt-14">
             About Dúi
           </h2>
-          <h3 className="font-stopbuck text-2xl text-center italic">
+          <h3 className="font-stopbuck text-2xl text-center italic text-black">
             {`(Nguyen Van Dui)`}
           </h3>
         </div>
