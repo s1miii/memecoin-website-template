@@ -4,17 +4,7 @@ import Image from "next/image";
 const About = () => {
   return (
     <div className="relative">
-      <div className="flex absolute -top-24">
-        <div className="cloud -ms-6"></div>
-        <div className="cloud -ms-6 rotate-6"></div>
-        <div className="cloud -ms-6"></div>
-        <div className="cloud -ms-6 -rotate-12"></div>
-        <div className="cloud -ms-6"></div>
-        <div className="cloud -ms-6 rotate-12"></div>
-        <div className="cloud -ms-6"></div>
-        <div className="cloud -ms-6 -rotate-6"></div>
-        <div className="cloud -ms-6"></div>
-        <div className="cloud -ms-6"></div>
+      <div className="flex absolute -top-24 max-w-full overflow-clip">
         <div className="cloud -ms-6"></div>
         <div className="cloud -ms-6 rotate-6"></div>
         <div className="cloud -ms-6"></div>

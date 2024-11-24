@@ -57,7 +57,7 @@ export default function Home() {
         <div className="text-center">
           <div className="flex justify-center">
             <Image
-              className=""
+              className="hidden md:block"
               src="/collection/6.png"
               width={300}
               height={300}

@@ -33,7 +33,7 @@ const Nav = () => {
         isScrolled ? "h-20" : "h-28"
       }`}
     >
-      <div className="flex items-center justify-between p-4 lg:px-8 mx-auto max-w-screen-xl">
+      <div className="flex items-center border border-black justify-between p-4 lg:px-8 mx-auto max-w-screen-xl">
         {/* Logo */}
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
@@ -67,7 +67,7 @@ const Nav = () => {
           <a
             href="https://pump.fun/coin/99b83VR35uBkxkq3XmFhyEvSFfuQKZeXPwNzG4wxpump"
             target="_blank"
-            className="transition duration-200 font-stopbuck text-2xl rounded-xl px-3.5 py-2.5 font-medium text-duis shadow-2xl bg-black hover:bg-duis hover:text-gray-800 hover:outline-black outline outline-2 outline-offset-0"
+            className="transition duration-200 font-stopbuck text-base sm:text-2xl rounded-xl px-3.5 py-2.5 font-medium text-duis shadow-2xl bg-black hover:bg-duis hover:text-gray-800 hover:outline-black outline outline-2 outline-offset-0"
           >
             Buy $DUIS
           </a>
