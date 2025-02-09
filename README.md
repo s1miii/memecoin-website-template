@@ -2,6 +2,8 @@
 
 This is an open-source **Memecoin Website Template** built with **Next.js**. It's designed to help crypto projects launch their website quickly with a clean, modern, and fun design.
 
+![Memecoin Website Demo](public/screencapture.png)  
+
 ## 🚀 Features
 
 - **Fast & SEO-friendly** with Next.js
